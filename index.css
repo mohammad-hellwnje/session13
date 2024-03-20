@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(78, 81, 162);
+    position: fixed;
+    width: 100%;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.nav ul li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.nav h2 {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.hero {
+    background-image: url(./abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 100;
+}
