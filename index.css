@@ -68,3 +68,11 @@
     color: white;
     border-radius: 10px;
 }
+footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
